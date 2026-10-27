@@ -1,0 +1,23 @@
+:root{color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#363636;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.page{max-width:1160px;margin:0 auto;padding:48px 24px 56px}
+.project-header{text-align:center}
+h1{max-width:1080px;margin:0 auto;font-size:2.4rem;line-height:1.125;font-weight:500;letter-spacing:0}
+.authors{display:flex;flex-wrap:wrap;justify-content:center;column-gap:19px;row-gap:5px;max-width:1050px;margin:31px auto 0;color:#6495ed;font-size:20px;line-height:1.65}
+.authors span{white-space:nowrap}
+.project-links{display:flex;justify-content:center;gap:12px;margin:27px auto 0}
+.project-links button{min-width:108px;min-height:40px;padding:9px 23px;border:0;border-radius:4px;background:#e9eaec;color:#74777b;font:500 15px/1.4 Arial,Helvetica,sans-serif;letter-spacing:.02em;cursor:default}
+.abstract,.acknowledgements,.training-video{max-width:900px;margin:54px auto 0}
+.abstract p{margin:0;line-height:1.7;text-align:justify}
+h2{margin:0 0 14px;font-size:24px;line-height:1.35;font-weight:400}
+.acknowledgements p{margin:0 0 13px;line-height:1.65}
+.acknowledgements p[lang="fr"]{color:#62666a;font-size:14px}
+.funding-logos{display:flex;align-items:center;gap:34px;flex-wrap:wrap;margin-top:25px}
+.funding-logos img{display:block;object-fit:contain;max-width:100%;height:auto}
+.funding-logos .canada{width:258px}
+.funding-logos .cifar{width:125px}
+@media(max-width:700px){.page{padding:34px 22px 42px}h1{font-size:30px;line-height:1.18}.authors{font-size:18px;column-gap:15px;row-gap:5px;margin-top:25px}.project-links{margin-top:23px}.abstract,.acknowledgements{margin-top:44px}.abstract p{text-align:left}h2{font-size:23px}.funding-logos{gap:25px}.funding-logos .canada{width:230px}.funding-logos .cifar{width:110px}}
+
+.method-figure{max-width:1080px;margin:54px auto 0}.method-figure h2{max-width:900px;margin:0 auto 18px}.method-figure figure{margin:0}.method-figure figure>a{display:block;overflow-x:auto}.method-figure img{display:block;width:100%;height:auto}.method-figure figcaption,.media-caption{max-width:900px;margin:12px auto 0;font-size:14px;line-height:1.6;color:#62666a}.training-video video{display:block;width:100%;max-width:720px;height:auto;margin:0 auto;background:#fff}.media-caption{margin-top:12px}
+@media(max-width:700px){.method-figure,.training-video{margin-top:44px}.method-figure figure>a{overflow-x:auto}.method-figure img{min-width:820px}.method-figure figcaption,.media-caption{font-size:13px}}
